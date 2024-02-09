@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Velozes</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <center>
+
+        <h1> Carros Velozes </h1>
+        <form> <!-- Início do formulário -->
+            <label for="valorC">Valor do Carro:</label>
+            <!-- Rótulo para o campo de entrada com id "valorC" -->
+            <input type="text" id="valorC" name="valorC">
+            <!-- Campo de entrada para o número A -->
+
+            <label for="FormaP">Forma de Pagamento:</label>
+            <!-- Rótulo para o campo de entrada com id "FormaP" -->
+            <input type="text" id="FormaP" name="FormaP">
+            <!-- Campo de entrada para o número B -->
+
+            <button type="button" onclick="calcular()">Calcular</button>
+            <!-- Botão de cálculo com chamada de função onclick -->
+
+            <h2>Resultados:</h2> <!-- Título para os resultados -->
+            <p id="Valor do Carro"></p> <!-- Parágrafo para exibir a soma -->
+            <p id="Forma de Pagamento"></p> <!-- p para exibir a subtração -->
+            <p id="Total a Pagar"></p> <!-- p para exibir a multiplicação -->
+
+        </form> <!-- Fim do formulário -->
+        <script src="script.js"></script>
+        <!-- Vínculo ao arquivo de script externo "script.js" -->
+    </center>
+</body>
+
+</html>
